@@ -1,0 +1,843 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.hidden {
+    display: none;
+}
+
+.entry-title {
+    display: none;
+}
+
+footer{
+    display: none !important;
+    width: 0% !important;
+}
+.edit-link{
+    display: none;
+    width: 0%;
+}
+
+.entry-footer{
+    display: none;
+    width: 0%;
+}
+
+.entry-content{
+    width: 180%;
+}
+
+.site-info{
+    display: none;
+    width: 0%;
+}
+
+#secondary {
+    display: none;
+    width: 0%;
+}
+
+.entry-footer {
+     display: none;
+    width: 0%;
+}
+
+
+.numero{
+    display: inline-block;
+}
+
+#vivienda-label::before{
+    content: "";
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/002-construccion.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#vivienda-label:hover::before{
+    content: "";
+    background: #e8a305;
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/002-construccion.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    
+}
+
+#comunidad-label::before{
+    content: "";
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/oficinas.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#comunidad-label:hover::before{
+    content: "";
+    background: #e8a305;
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/oficinas.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    
+}
+
+#negocio-label::before{
+    content: "";
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/001-fabrica.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#negocio-label:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/lugar/001-fabrica.png');
+    background-size: 100px;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;       
+}
+
+
+.superficie{
+    text-align: center !important;
+    margin: 10px;
+}
+
+.superficie::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/superficie.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+.superficie:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/superficie.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+.habitaciones{
+    text-align: center !important;
+    margin: 10px;
+}
+
+.habitaciones::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/habitaciones.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+.habitaciones:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/habitaciones.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#personas1{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#personas1::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/001-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#personas1:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/001-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#personas2{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#personas2::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/002-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#personas2:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/002-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#personas3{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#personas3::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/003-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#personas3:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/003-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#personas4{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#personas4::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/004-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#personas4:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/Personas/004-personas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#mañana{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#mañana::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/003-salida-del-sol.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#mañana:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/003-salida-del-sol.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#tarde{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#tarde::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/001-colinas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#tarde:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/001-colinas.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+#noche{
+    text-align: center !important;
+    margin: 10px;
+}
+
+#noche::before{
+    content: "";
+    display:block;   
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/002-noche.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+#noche:hover::before{
+    content: "";
+    border-radius: 100px 100px 100px 100px;
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url('../img/hora_de_día/002-noche.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;   
+}
+
+
+
+
+
+
+
+
+
+.with-image{
+    margin-bottom: 150px;
+}
+
+
+.btn {
+  color: white;
+  background: #d8d8d8; 
+  border: 1px solid #d8d8d8 ;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  border-radius: 3px !important;
+  -webkit-transition: background 600ms ease, color 600ms ease;
+  transition: background 600ms ease, color 600ms ease;
+}
+
+.file-input {
+  visibility: hidden;
+  width: 0;
+  position: relative;
+}
+.file-input::before {
+  content: 'Subir factura';
+  display: inline-block;
+  background:#e8a305;
+  border-radius: 3px;
+  padding: 15px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+  visibility: visible;
+  position: absolute;
+}
+
+.file-input:active::before {
+  background:#e8a305;
+}
+
+
+.btn span {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 1px 6px;
+  font-size: 12px;
+  vertical-align: middle;
+  border-radius: 3px !important;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.btn1{
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  border-radius: 3px;
+  -webkit-transition: background 600ms ease, color 600ms ease;
+  transition: background 600ms ease, color 600ms ease;
+    
+}
+
+.si{
+  
+    background-position: 50% 50%;
+    font-size: 2em;
+    width: 20%;
+    border-radius: 100px;
+    background-size: 100px;
+    display:inline-block;
+    text-align: center;
+    top: 20px;
+   
+}
+
+.si:hover{
+  
+    background-position: 50% 50%; 
+    background-color: #e8a305;
+    text-align: center;
+    color: white;
+    width: 20%;
+    border-radius: 100px;
+    background-size: 100px;
+    display:inline-block;
+    top:20px;
+    
+    
+}
+
+
+.numero{
+    background-color: #e8a305;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+input[type="radio"].toggle {
+  display: none;
+}
+
+
+input[type="radio"].toggle + label {
+  cursor: pointer;
+  min-width: 80px;
+}
+
+input[type="radio"].toggle + label.btn:hover{
+  background: #a09d9d;
+  color: white;
+}
+
+input[type="radio"].toggle + label:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  -webkit-transition: left 100ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: left 100ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 100%;
+  z-index: -1;
+}
+
+
+input[type="radio"].toggle:checked + label::before{
+  background: #e8a305;
+  cursor: default;
+  color: white;
+  border-radius: 100px 100px 100px 100px;
+  
+  
+}
+
+input[type="submit"]{
+    background: #e8a305 !important;
+}
+
+
+input[type="radio"].toggle:checked + label.btn{
+  background: #e8a305;
+  cursor: default;
+  color: white;
+  
+}
+
+input[type="radio"].toggle:checked + label.si{
+  background: #e8a305;
+  cursor: default;
+  color: white;
+  
+}
+
+input[type="radio"].toggle:checked + label.superficie::before{
+  background: #e8a305;
+  display:block;
+  background-repeat: no-repeat;
+  background-image: url('../img/superficie.png');
+  background-position: center !important;
+  background-image: url('../img/superficie.png');
+  background-size: 80px;
+  width: 120px;
+  height: 120px;   
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;  
+  cursor: default;
+  color: white;
+  
+}
+input[type="radio"].toggle:checked + label.habitaciones::before{
+    background: #e8a305;
+    display:block;
+    background-repeat: no-repeat;
+    background-image: url('../img/superficie.png');
+    background-position: center !important;
+    background-image: url('../img/habitaciones.png');
+    background-size: 80px;
+    width: 120px;
+    height: 120px;   
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;  
+    cursor: default;
+    color: white;
+
+}
+
+
+input[type="radio"].toggle:checked + label:after {
+  left: 0;
+}
+
+/* ENDS */
+
+/* UPFORM STYLE STARTS*/
+.upform input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+  border-color: #a09d9d !important;
+}
+.upform input, select, textarea {
+  
+  color: #FFF;
+}
+.upform {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                    supported by Chrome and Opera */
+  max-width: 900px;
+  margin: 300px auto;
+  margin-bottom: 500px;
+  padding: 0 20px;
+}
+
+
+.upform .upform-main .input-block  {
+  padding: 30px 0;
+  opacity: 0.25;
+  cursor: default;
+}
+
+.input-bloqueo{
+    opacity: 1 !important;
+}
+
+.upform .upform-main .input-block .label {
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 30px;
+}
+.upform .upform-main .input-block .input-control {
+  margin: 20px 0;
+}
+.upform .upform-main .input-block .input-control input[type=text] {
+  outline-width: 0;
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  font-size: 18px;
+}
+
+.upform .upform-main .input-block.active {
+  opacity: 1;
+}
+
+.upform .upform-footer {
+  margin-top: 60px;
+}
+.upform .upform-footer .btn {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+
+.fixed{
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 10px;
+    background-color: black;  
+}
+
+.title{
+    font-size: 30px;
+}
+
+
+#dialog {
+    text-align: center;
+}
+
+#dialog input[type="text"]{   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+#dialog input[type="number"]{   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
